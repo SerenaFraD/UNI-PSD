@@ -33,9 +33,9 @@ void insertArray(int sequenza[], int *size, int ele, int pos);
 
 /**************************************************************/
 //Analis dei dati:
-//  Dati in ingresso -> array sequenza disizeinteri
+//  Dati in ingresso -> array sequenza di size interi
 //    Precondizione -> *size > 0
-//  Dati in uscita -> array sequenza disizeinteri
+//  Dati in uscita -> array sequenza di size interi
 //
 //Dizionario dei dati:
 //  sequenza(array) -> array di interi in input

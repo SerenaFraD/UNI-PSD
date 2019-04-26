@@ -1,5 +1,7 @@
-typedef void* Item;
+typedef void *Item;
 
 Item inputItem();
 void outputItem(Item);
-int cmpItem(Item item1, Item item2);
+int cmpItem(Item, Item);
+void swap(Item *, Item *);
+Item cloneItem(Item);

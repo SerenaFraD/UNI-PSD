@@ -23,4 +23,18 @@ int cmpItem(Item item1, Item item2) {
 	return *p1 - *p2;
 }
 
+void swap(Item *item1, Item *item2) {
+	Item tmp;
 
+	tmp = *item1;
+	*item1 = *item2;
+	*item2 = tmp;
+}
+
+Item cloneItem(Item item) {
+	int *n = malloc(sizeof(int));
+
+	*n = (int) item;
+
+	return n;
+}

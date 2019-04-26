@@ -22,23 +22,29 @@ int main() {
 
 	scanf("%d", &scelta);
 
-	switch(scelta) {
-		case 1:	usaCoppieDistMinD();
-						break;
+	switch (scelta) {
+		case 1:
+			usaCoppieDistMinD();
+			break;
 
-		case 2: usaMaxDistanza();
-						break;
+		case 2:
+			usaMaxDistanza();
+			break;
 
-		case 3:	usaSposta();
-						break;
+		case 3:
+			usaSposta();
+			break;
 
-		case 4:	usaCentroide();
-						break;
+		case 4:
+			usaCentroide();
+			break;
 
-		case 5: usaCreatePoint();
-						break;
+		case 5:
+			usaCreatePoint();
+			break;
 
-		default: printf("Scelta errata. Scelte da 1 a 5.\n");
+		default:
+			printf("Scelta errata. Scelte da 1 a 5.\n");
 	}
 
 	return 0;
@@ -47,7 +53,7 @@ int main() {
 void riempiSequenza(Point s[], int n) {
 	float x, y;
 
-	for(int i = 0; i < n; i++) {
+	for (int i = 0; i < n; i++) {
 		printf("Inserire x e y.\n");
 		scanf("%f %f", &x, &y);
 

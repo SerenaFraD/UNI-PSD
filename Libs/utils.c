@@ -11,11 +11,11 @@ void swap(int *n, int *m) {
 int minimo(int sequenza[], int size) {
 	int min = 0, i;
 
-    for(i = 0; i < size; i++) {
-        if(sequenza[i] < sequenza[min]) {
-            min = i;
+    for(i = 1; i < size; i++) {
+       if(sequenza[i] < sequenza[min]) {
+       	  min = i;
         }
     }
 
-    return min;
+  return min;
 }

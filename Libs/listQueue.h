@@ -9,7 +9,7 @@ newList() -> List;											newList() -> list;
 addHead(List, Item) -> void	;						addHead(list, item) -> void;
 																					•Post: list->size++;
 
-removeHead(List, Item) -> void	;				addHead(list, item) -> void;
+removeHead(List, Item) -> void	;						addHead(list, item) -> void;
 																					•Post: list->size++;
 
 isEmpty(List) -> boolean;								isEmpty(list) -> b;
@@ -27,14 +27,8 @@ Item removeHead(List);
 int isEmpty(List);
 int sizeList(List);
 void printList(List);
-void sortedList(List);
 void bubbleSortList(List);
 Item searchList(List, Item, int *);
 Item removeListItem(List, Item);
 Item removeListItemPos(List, int);
-List insertItem(List, Item, int);
 List insertTail(List, Item);
-List cloneList(List);
-List reverseList(List);
-
-//TODO: SISTEMARE I PROTOTIPI

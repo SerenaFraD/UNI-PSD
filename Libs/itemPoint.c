@@ -36,3 +36,7 @@ int cmpItem(Item item1, Item item2) {
 	else
 		return 1;
 }
+
+Item cloneItem(Item item) {
+	//return createPoint(item->x, item->y);
+}

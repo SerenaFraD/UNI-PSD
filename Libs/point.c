@@ -3,10 +3,10 @@
 #include <math.h>
 #include "point.h"
 
-typedef struct {
-	float x;
-	float y;
-} point;
+struct point {
+		float x;
+		float y;
+};
 
 Point createPoint(float x, float y) {
 	Point p = malloc(sizeof(struct point));
@@ -38,7 +38,7 @@ Point centroide(Point sequenza[], int size) {
 	int i;
 	float sumx = 0.0, sumy = 0.0;
 
-	for(i = 0; i < size; i++) {
+	for (i = 0; i < size; i++) {
 		sumx += sequenza[i]->x;
 		sumy += sequenza[i]->y;
 	}
