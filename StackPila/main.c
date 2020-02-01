@@ -7,6 +7,7 @@ int main() {
 	int i;
 	Stack stack = newStack();
 
+	//Inserimento degli elementi in uno stack
 	printf("Inserire elementi ");
 	for (i = 0; i < N; i++)
 		push(stack, inputItem());
@@ -15,19 +16,10 @@ int main() {
 	printf("\n");
 
 	/*
+	//Esempio di eliminazione degli elementi da uno stack
 	pop(stack);
 	printStack(stack);
 	printf("\n");
-
-	printf("\nInserire l' item da inserire e la posizione: ");
-	s = inputItem();
-	scanf("%d",&i);
-	addListItem(A, s, i);
-	printList(A);
-	
-	List B = cloneList(A);
-	printf("\n");
-	printList(B);
 	*/
 
 	return 0;
